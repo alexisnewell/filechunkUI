@@ -51,6 +51,7 @@ def find_best_chunk(chunks, query):
 @app.route("/", methods=["GET", "POST"])
 def index():
     result = None
+    query = ""
 
     if request.method == "POST":
         uploaded_file = request.files["file"]
@@ -66,7 +67,11 @@ def index():
 
             result = find_best_chunk(chunks, query)
 
-    return render_template("index.html", result=result,  query=query)
+    return render_template(
+        "index.html",
+        result=result,
+        query=query
+    )
 
 if __name__ == "__main__":
     app.run(debug=True)
