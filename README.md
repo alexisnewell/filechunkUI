@@ -1,3 +1,5 @@
+<img width="1433" height="848" alt="image" src="https://github.com/user-attachments/assets/b54ba7c4-0a8f-4946-8da1-cbe88112ee32" />
+
 Doc Bot
 
 This project lets you split a text file into chunks and search for the closest matching chunk based on a user's question.
