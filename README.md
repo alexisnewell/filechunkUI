@@ -34,32 +34,7 @@ Prepare a .txt file with the content you want to search.
 
 Open a terminal and run:
 
-python doc_bot.py path/to/your/file.txt
-Once running, you can ask questions about the content.
-
-To exit, simply type:
-exit
-
-Example
-
-Suppose your file (example.txt) contains:
-
-The quick brown fox jumps over the lazy dog.
-Python is a powerful programming language.
-Artificial Intelligence is transforming the world.
-Databases store and retrieve information efficiently.
-
-You run:
-python doc_bot.py example.txt
-Then you type:
-
-programming language
-Output:
-
-Best matching chunk:
-
-"Python is a powerful programming language."
-Done!
+python3 app.py
 
 How Matching Works
 
